@@ -1,0 +1,261 @@
+.navbar {
+    display: flex;
+    align-items: center;
+ /* flex-wrap: wrap-reverse; */
+ justify-content: flex-end;
+ flex-direction: row;
+  }
+  .navbar div{
+    
+    width: 150px;
+    text-align: center;
+     /* flex: 1; */
+  }
+
+
+  .navbar {
+    overflow: hidden;
+    background-color: rgb(245, 222, 179);
+   
+    box-shadow: 0 -3px 10px 0  rgb(235, 217, 167);
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: #333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: #333;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: rgb(215, 198, 165);
+    border-radius: 5%;
+
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  body{
+    --main-width:250px;
+ }
+
+.title, h1{
+    text-align: center;
+}
+
+  .thumbnails{
+    width: var(--main-width);
+    height: auto;
+   
+  }
+ img{
+    height: 300px;
+ box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+ border-radius: 3%;
+  
+ }
+ .food{
+    margin-top: 32px;
+    text-align: center;
+    align-items: flex-start;
+    gap: 52px;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .recipes div{
+   
+ 
+    font-size: 1.2rem;
+    width: var(--main-width);
+  }
+.recipes{
+  
+    padding: 10px;
+    
+}
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+
+    .navbar {
+        display: flex;
+        align-items: center;
+     /* flex-wrap: wrap-reverse; */
+     justify-content: flex-end;
+     flex-direction: row;
+      }
+      .navbar div{
+        
+        width: 150px;
+        text-align: center;
+         /* flex: 1; */
+      }
+    
+    
+      .navbar {
+        overflow: hidden;
+        background-color: rgb(245, 222, 179);
+       
+        box-shadow: 0 -3px 10px 0  rgb(235, 217, 167);
+      }
+      
+      .navbar a {
+        float: left;
+        font-size: 16px;
+        color: #333;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      .dropdown {
+        float: left;
+        overflow: hidden;
+      }
+      
+      .dropdown .dropbtn {
+        font-size: 16px;  
+        border: none;
+        outline: none;
+        color: #333;
+        padding: 14px 16px;
+        background-color: inherit;
+        font-family: inherit;
+        margin: 0;
+      }
+      
+      .navbar a:hover, .dropdown:hover .dropbtn {
+        background-color: rgb(215, 198, 165);
+        border-radius: 5%;
+    
+      }
+      
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+      
+      .dropdown-content a {
+        float: none;
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+      }
+      
+      .dropdown-content a:hover {
+        background-color: #ddd;
+      }
+      
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+    
+      body{
+        --main-width:250px;
+     }
+    
+    .title{
+        text-align: center;
+    }
+    
+      .thumbnails{
+        width: var(--main-width);
+        height: auto;
+       
+      }
+     img{
+        height: 300px;
+     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+     border-radius: 3%;
+      
+     }
+     .food{
+        margin-top: 32px;
+        text-align: center;
+        align-items: flex-start;
+        gap: 52px;
+        justify-content: space-around;
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .recipes div{
+       
+     
+        font-size: 1.2rem;
+        width: var(--main-width);
+      }
+    .recipes{
+      
+        padding: 10px;
+        
+    }
+    
+
+.thumbnails{
+    width: 55%;
+   }
+   h1{
+    font-size: 1.5rem;
+   }
+div .text{
+  text-align: center;
+  font-size: 0.9rem;
+}
+ img{
+    width: 95%;
+    min-width: 220px;
+    height: auto;
+}
+
+
+}
