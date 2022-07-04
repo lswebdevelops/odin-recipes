@@ -1,5 +1,22 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    --main-width:350px;
+}
+.whole{
+    padding: 15px;
+}
+.images, p {
+    text-align: center;
+}
 .navbar {
+    overflow: hidden;
+    background-color: rgb(245, 222, 179);
+   
+    box-shadow: 0 -3px 10px 0  rgb(235, 217, 167);
     display: flex;
+  
     align-items: center;
  /* flex-wrap: wrap-reverse; */
  justify-content: flex-end;
@@ -13,12 +30,7 @@
   }
 
 
-  .navbar {
-    overflow: hidden;
-    background-color: rgb(245, 222, 179);
-   
-    box-shadow: 0 -3px 10px 0  rgb(235, 217, 167);
-  }
+
   
   .navbar a {
     float: left;
@@ -77,9 +89,7 @@
     display: block;
   }
 
-  body{
-    --main-width:250px;
- }
+
 
 .title, h1{
     text-align: center;
@@ -97,24 +107,23 @@
   
  }
  .food{
+    padding: 10px;
     margin-top: 32px;
     text-align: center;
     align-items: flex-start;
-    gap: 52px;
+    gap: 18px;
     justify-content: space-around;
     display: flex;
     flex-wrap: wrap;
   }
   .recipes div{
-   
- 
     font-size: 1.2rem;
     width: var(--main-width);
   }
-.recipes{
-  
-    padding: 10px;
-    
+ul,h2 {
+    padding: 15px;
+    border-radius: 5%;
+
 }
 
 
@@ -127,6 +136,9 @@
      /* flex-wrap: wrap-reverse; */
      justify-content: flex-end;
      flex-direction: row;
+      }
+      .whole{
+        padding: 10px;
       }
       .navbar div{
         
